@@ -1,0 +1,105 @@
+/* commons */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
+/* nav styles */
+nav {
+    display: flex;
+    height: 130px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h2 .logo-letter {
+
+    color: #FF42A5;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    gap: 32px;
+
+}
+
+.li-follow {
+    display: flex;
+    align-items: center;
+    color: #0B0223;
+    padding: 15px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    gap: 10px
+}
+
+.li-img-yp {
+    width: 24px;
+    height: 24px;
+}
+
+.li-img-tik {
+    width: 24px;
+    height: 24px;
+}
+
+/* nav ends  */
+
+/* banner section starts here */
+.banner-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+}
+
+.banner-content {}
+
+.banner-c-play {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-tittle {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    s;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.banner-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.btn-primary{
+    text-transform: uppercase;
+}
+
+/* banner section ends here  */
