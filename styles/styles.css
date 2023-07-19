@@ -66,40 +66,142 @@ ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
+
 }
 
-.banner-content {}
+
+.banner-content {
+    padding-bottom: 30px;
+
+}
+
 
 .banner-c-play {
     color: #0B0223;
     text-align: center;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .banner-tittle {
+    text-align: left;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    s;
-    font-size: 95px;
+    font-size: 6.25rem;
     font-weight: 800;
     text-transform: uppercase;
 }
 
 .banner-description {
+    text-align: left;
     color: #534C64;
-    text-align: center;
+
     font-size: 20px;
     font-weight: 500;
     text-transform: lowercase;
 }
-.btn-primary{
+
+.btn-primary-play {
+    margin-top: 30px;
+    gap: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
     text-transform: uppercase;
+
+
+
+
 }
+
+.pink-btn {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF42A5;
+    border: none;
+    padding: 21px 40px;
+    border-radius: 48px;
+    text-transform: uppercase;
+
+
+}
+
+.blue-btn {
+    color: #FFFFFF;
+    background-color: #4EC5F7;
+    border: none;
+    padding: 21px 40px;
+    border-radius: 48px;
+    text-transform: uppercase;
+
+}
+
+.banner-img img {
+    display: flex;
+    width: 800px;
+}
+
+.online-game {
+
+    padding: 0 240px;
+    gap: 10px;
+    margin-bottom: 30px;
+
+}
+
+.online-g-content {
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.online-g-tittle {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.online-g-description {
+    text-align: center;
+
+}
+
+
+.online-g-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    gap: 1.5rem;
+
+}
+
+.og-img-text {
+    padding-top: 7px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.og-img-p {
+width: 300px;
+height: 350px;
+    
+}
+
+
 
 /* banner section ends here  */

@@ -1,11 +1,87 @@
 @media screen and (max-width:576px) {
-    nav, ul{
+
+    nav,
+    ul {
         flex-direction: column;
         height: auto;
-        padding-bottom:5px;
+        padding-bottom: 5px;
+
     }
+
     ul {
         margin-top: 10px;
-        padding:36px;
+        padding: 36px;
     }
+
+    main {
+        margin: 0 auto;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        flex-direction:column-reverse;
+      
+        
+
+    }
+
+    .banner-content {
+        width: 250px;
+        justify-content:center;
+
+    }
+
+    .banner-c-play {
+        color: #0B0223;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .banner-tittle {
+        font-size: 4rem;
+    }
+    
+
+    .btn-primary-play {
+        display: flex;
+        width: 400px; 
+
+    }
+
+    .banner-img {
+        display: flex;
+    }
+
+    .banner-img img {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        width: 300px;
+
+    }
+
+    .online-game {
+        padding: 0;
+        margin: 0 ;
+        
+    }
+
+    .online-g-tittle {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 700;
+
+    }
+    .online-g-description{
+        font-size: 10px;
+    }
+
+    .online-g-img {
+        flex-direction: column;
+        padding: 0 70px;
+        
+    }
+
 }
