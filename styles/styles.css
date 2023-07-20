@@ -145,6 +145,9 @@ ul {
     width: 800px;
 }
 
+/* banner section ends here  */
+
+/* online game styles */
 .online-game {
 
     padding: 0 240px;
@@ -197,11 +200,105 @@ ul {
 }
 
 .og-img-p {
-width: 300px;
-height: 350px;
-    
+    width: 300px;
+    height: 350px;
+
+}
+
+/* online game styles ends*/
+
+.play-instant-container {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.play-instant-content {}
+
+.play-instant-content-h2 {
+    text-align: right;
+}
+
+.play-instant-description {
+    text-align: right;
+}
+
+.play-instant-img {
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+
 }
 
 
+.play-instant-img-over {
+    position: relative;
+    transform: translateX(150px) translateY(280px);
+    width: 250px;
+    height: 280px;
+}
 
-/* banner section ends here  */
+/* section-buttons styles */
+.section-buttons-contianer {
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 0 240px;
+    margin-bottom: 30px;
+
+
+}
+
+.section-buttons-contianer:hover {}
+
+.section-buttons {
+    display: flex;
+    border: none;
+    background: none;
+    align-items: center;
+    border-radius: 50px;
+    background: #ffffff;
+    width: 200px;
+}
+
+.btn-icon img {
+    padding-right: 10px;
+
+}
+
+/* footer styles */
+.footer-sec {
+    background: #0B0223;
+    height: 300px;
+
+}
+
+.footer-logo {
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.logo-letter2 {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-p{
+    display: flex;
+    color: #FFF;
+    margin-top:35px; 
+    padding: ;
+    gap:15px;
+    justify-content: center;
+    
+}
+.footer-button {
+   
